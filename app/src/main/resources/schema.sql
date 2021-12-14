@@ -1,0 +1,8 @@
+CREATE TABLE TIPOCAMBIO (
+    id INTEGER IDENTITY PRIMARY KEY,
+    moneda_origen VARCHAR(50) NOT NULL,
+    moneda_destino VARCHAR(50) NOT NULL,
+    tipo_cambio DECIMAL NOT NULL
+);
+
+
